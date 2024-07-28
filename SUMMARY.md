@@ -9,25 +9,10 @@
 
 ## Basics
 
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
-
-## How it works
-
-* [General process](how-it-works/editor.md)
-* [Blob](how-it-works/markdown.md)
-* [Nonce](how-it-works/nonce.md)
-* [Reserved Space](how-it-works/reserved-space.md)
-
-## Code Implementation
-
-* [Etica Nodes (Go updates)](code-implementation/etica-nodes.md)
-* [etica-randomx-nodejs package](code-implementation/randomx-etica-nodejs.md)
-* [Mining Pools](code-implementation/mining-pools.md)
+* [General process](basics/editor.md)
+* [Blob](basics/markdown.md)
+* [Nonce](basics/nonce.md)
+* [Reserved Space](basics/reserved-space.md)
 
 ## Mining Pools
 
@@ -38,3 +23,18 @@
 * [Shares verification](mining-pools/shares-verifications.md)
 * [etica-randomx-nodejs package](mining-pools/randomx-etica-nodejs.md)
 * [Integrations](mining-pools/integrations.md)
+
+## Code Implementation
+
+* [Etica Nodes (Go updates)](code-implementation/etica-nodes.md)
+* [etica-randomx-nodejs package](code-implementation/randomx-etica-nodejs.md)
+* [Mining Pools](code-implementation/mining-pools.md)
+
+## temp section
+
+* [Editor](temp-section/editor.md)
+* [Markdown](temp-section/markdown.md)
+* [Images & media](temp-section/images-and-media.md)
+* [Interactive blocks](temp-section/interactive-blocks.md)
+* [OpenAPI](temp-section/openapi.md)
+* [Integrations](temp-section/integrations.md)

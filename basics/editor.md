@@ -1,4 +1,4 @@
-# Editor
+# General process
 
 GitBook has a powerful block-based editor that allows you to seamlessly create, update, and enhance your content.
 
