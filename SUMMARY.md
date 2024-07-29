@@ -13,7 +13,6 @@
 * [Blob](basics/markdown.md)
 * [Nonce](basics/nonce.md)
 * [Reserved Space](basics/reserved-space.md)
-* [Reserved Space old](basics/reserved-spaceold.md)
 
 ## Mining Pools
 

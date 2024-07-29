@@ -6,8 +6,6 @@ description: General presentation and key concepts of how RandomX works
 
 RandomX is a proof-of-work (PoW) algorithm designed to be ASIC-resistant, favoring CPU mining. Here's how it works in Monero:
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/editor-hero.png" alt=""><figcaption></figcaption></figure>
-
 #### 1. Block Template
 
 Monero uses a block template system. When a miner requests work, a block template is created and then hashed to obtain a blob.
