@@ -9,7 +9,7 @@
 
 ## Basics
 
-* [General process](basics/editor.md)
+* [RandomX in Monero: An Overview](basics/editor.md)
 * [Blob](basics/markdown.md)
 * [Nonce](basics/nonce.md)
 * [Reserved Space](basics/reserved-space.md)

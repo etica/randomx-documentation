@@ -19,9 +19,17 @@ layout:
 
 # Welcome
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+Welcome to the Etica RandomX Documentation.\
+This documentation provides a comprehensive guide to understanding and implementing the RandomX mining algorithm for the Etica Protocol.&#x20;
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+In the following pages, we'll explore:
+
+* How RandomX works in the Monero ecosystem
+* Key concepts like blob, nonce, and reserved space
+* How Etica has implemented and modified RandomX
+* Detailed explanations of each component in the Etica mining process
+
+Whether you're a miner, developer, or simply curious about blockchain technology, this guide will help you understand the intricacies of Etica's mining system.
 
 ### Jump right in
 
