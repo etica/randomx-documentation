@@ -14,6 +14,7 @@
 * [General process](mining-pools/general-process.md)
 * [Read Etica Smart Contract](mining-pools/read-etica-smart-contract.md)
 * [Pool/Miners communications](mining-pools/miners-communications.md)
+* [Target](mining-pools/target.md)
 * [Miners Blob construction](mining-pools/miners-blob.md)
 * [Shares verification](mining-pools/shares-verifications.md)
 * [call mintrandomX()](mining-pools/call-mintrandomx.md)
