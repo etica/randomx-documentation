@@ -11,7 +11,6 @@
 
 ## Mining Pools
 
-* [General process](mining-pools/general-process.md)
 * [Pool/Miners communications](mining-pools/miners-communications.md)
 * [Read Etica Smart Contract](mining-pools/read-etica-smart-contract.md)
 * [Target](mining-pools/target.md)
