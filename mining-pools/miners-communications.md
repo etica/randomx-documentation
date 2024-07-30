@@ -40,8 +40,9 @@ algo: [
 }
 ```
 
-<pre class="language-json"><code class="lang-json"><strong>(Pool response):
-</strong>{
+```json
+(Pool response to Miner login):
+{
 id: 1,
 jsonrpc: '2.0',
 result: {
@@ -58,7 +59,7 @@ status: 'OK'
 error: null
 }
 
-</code></pre>
+```
 
 {% hint style="info" %}
 **how to get the data**
@@ -75,7 +76,8 @@ _target:_ it's a target not difficulty, check this page for details [target.md](
 
 #### Submit Share
 
-<pre class="language-json"><code class="lang-json"><a data-footnote-ref href="#user-content-fn-1">(Miner to Pool):</a>
+```json
+(Miner to Pool):
 
 { 
 jsonrpc: '2.0', 
@@ -88,7 +90,7 @@ result: '436f54becf6abc2aba5b7a804464dcce9db0696b7222554b905c977cd6d50000'
 }
 }
 
-</code></pre>
+```
 
 {% hint style="info" %}
 _nonce:_ the 4bytes nonce solution\
@@ -96,8 +98,9 @@ _result:_ the 32bytes randomX hash result
 {% endhint %}
 
 ```json
-(Pool response):
+(Pool response to Miner submit share):
 
+Valid share:
 {
     result: {
         status: "OK"
@@ -105,11 +108,19 @@ _result:_ the 32bytes randomX hash result
     id: interactionId
 }
 
+Invalid share:
+{
+            id: interactionId,
+            result: null,
+            error: error
+}
+
 ```
 
 {% hint style="info" %}
 ```
 where interactionId correspond to the params.id sent by miner
+and error is a string error meassage
 ```
 {% endhint %}
 
@@ -145,6 +156,3 @@ height: is the current ETI block height [read-etica-smart-contract.md](read-etic
 algo: 'rx/0' (it's a zero not O) corresponds to randomX algo
 {% endhint %}
 
-
-
-[^1]: Miner sends to pool
