@@ -18,7 +18,6 @@
 * [Shares verification](mining-pools/shares-verifications.md)
 * [call mintrandomX()](mining-pools/call-mintrandomx.md)
 * [etica-randomx-nodejs package](mining-pools/randomx-etica-nodejs.md)
-* [Integrations](mining-pools/integrations.md)
 
 ## Code Implementation
 
