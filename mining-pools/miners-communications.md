@@ -75,8 +75,7 @@ _target:_ it's a target not difficulty, check this page for details [target.md](
 
 #### Submit Share
 
-```json
-(Miner to Pool):
+<pre class="language-json"><code class="lang-json"><a data-footnote-ref href="#user-content-fn-1">(Miner to Pool):</a>
 
 { 
 jsonrpc: '2.0', 
@@ -89,7 +88,7 @@ result: '436f54becf6abc2aba5b7a804464dcce9db0696b7222554b905c977cd6d50000'
 }
 }
 
-```
+</code></pre>
 
 {% hint style="info" %}
 _nonce:_ the 4bytes nonce solution\
@@ -146,3 +145,6 @@ height: is the current ETI block height [read-etica-smart-contract.md](read-etic
 algo: 'rx/0' (it's a zero not O) corresponds to randomX algo
 {% endhint %}
 
+
+
+[^1]: Miner sends to pool
