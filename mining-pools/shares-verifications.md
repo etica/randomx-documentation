@@ -48,7 +48,7 @@ _Check_ [read-etica-smart-contract.md](read-etica-smart-contract.md "mention") _
 
 #### 4. Verify Nonce
 
-```
+```javascript
 const isValid = randomx.VerifyEticaRandomXNonce(minerBlob, nonceBuffer, targetBuffer, seedHash, hashresultBuffer);
 
 if(!isValid){           
@@ -60,6 +60,11 @@ else {
      console.log('valid nonce');
 }
 ```
+
+#### 5. Make sure to save miner's extraNonce
+
+You need to save extraNonce alongside the share data in your database system. Indeed you will need it to call the mintrandomX() Etica Smart Contract function.\
+Note it is the extraNonce you need, not the extraNonceHash. Check this section for details about that: [reserved-space.md](../basics/reserved-space.md "mention")
 
 ***
 
