@@ -8,7 +8,7 @@ Here is the full process to verify nonces sent by miners
 
 #### 1. Import randomx-etica-node.js
 
-Full details of how to install randomx-etica-nodejs here: [randomx-etica-nodejs.md](../code-implementation/randomx-etica-nodejs.md "mention")
+Full details of how to install randomx-etica-nodejs here: [Broken link](broken-reference "mention")
 
 ```
 import randomx from "randomx-etica-nodejs";
