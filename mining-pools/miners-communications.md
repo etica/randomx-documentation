@@ -86,14 +86,27 @@ result: '436f54becf6abc2aba5b7a804464dcce9db0696b7222554b905c977cd6d50000'
 ```
 
 {% hint style="info" %}
-_nonce:_ the 4bytes nonce\
-_result:_ the randomX hash result
+_nonce:_ the 4bytes nonce solution\
+_result:_ the 32bytes randomX hash result
 {% endhint %}
 
 ```
-Pool response
+Pool response:
+
+{
+    result: {
+        status: "OK"
+    },
+    id: interactionId
+}
 
 ```
+
+{% hint style="info" %}
+```
+where interactionId correspond to the params.id sent by miner
+```
+{% endhint %}
 
 #### Send Job (Pool to Miner)
 
