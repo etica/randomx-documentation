@@ -1,21 +1,5 @@
 # Pool/Miners communications
 
-You can sync GitBook pages with an OpenAPI or Swagger file or a URL to include auto-generated API methods in your documentation.
-
-### OpenAPI block
-
-GitBook's OpenAPI block is powered by [Scalar](https://scalar.com/), so you can test your APIs directly from your docs.
-
-{% swagger src="https://petstore3.swagger.io/api/v3/openapi.json" path="/pet" method="post" %}
-[https://petstore3.swagger.io/api/v3/openapi.json](https://petstore3.swagger.io/api/v3/openapi.json)
-{% endswagger %}
-
-
-
-
-
-
-
 #### Login
 
 ```json
@@ -129,14 +113,14 @@ algo: 'rx/0'
 ```
 
 {% hint style="info" %}
-**how to get the data**\
-_blob:_ for miner blob construction please read the BASICS sections Blob, Nonce and Reserved Space explain in details how handle the blob
+**how to get the data**
 
-_job\_id:_ must be string can contain letters
+_job\_id:_ must be string can contain letters\
+_blob:_ for miner blob construction please read the BASICS sections Blob, Nonce and Reserved Space. [markdown.md](../basics/markdown.md "mention")
 
-_seed\_hash:_ is a global variable you can get from Etica Smart Contract
+_seed\_hash:_ is a global variable [read-etica-smart-contract.md](read-etica-smart-contract.md "mention")
 
-height: is the current ETI block height, you can get from Etica Smart Contract
+height: is the current ETI block height [read-etica-smart-contract.md](read-etica-smart-contract.md "mention")
 
 algo: 'rx/0' (it's a zero not O) corresponds to randomX algo
 {% endhint %}
