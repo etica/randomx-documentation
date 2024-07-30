@@ -71,16 +71,16 @@ error: null
 ```
 
 {% hint style="info" %}
-**how to get the data**\
-_blob:_ for miner blob construction please read the BASICS sections Blob, Nonce and Reserved Space explain in details how handle the blob
+**how to get the data**
 
-_job\_id:_ must be string can contain letters
+_job\_id:_ must be string can contain letters\
+_blob:_ for miner blob construction please read the BASICS sections Blob, Nonce and Reserved Space. [read-etica-smart-contract.md](read-etica-smart-contract.md "mention")
 
-_seed\_hash:_ is a global variable you can get from Etica Smart Contract
+_seed\_hash:_ is a global variable [read-etica-smart-contract.md](read-etica-smart-contract.md "mention")
 
-height: is the current ETI block height, you can get from Etica Smart Contract
+height: is the current ETI block height [read-etica-smart-contract.md](read-etica-smart-contract.md "mention")
 
-_target:_ it is a target not difficulty
+_target:_ it's a target not difficulty, check this page for details [target.md](target.md "mention")
 {% endhint %}
 
 #### Submit Share
