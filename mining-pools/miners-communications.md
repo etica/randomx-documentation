@@ -1,9 +1,17 @@
+---
+description: Stratum communication methods
+---
+
 # Pool/Miners communications
+
+Pool needs a stratum server running
+
+Here are the methods that miners and pool use to communicate
 
 #### Login
 
 ```json
-Miner to Pool:
+(Miner to Pool):
 {
 id: 1,
 jsonrpc: '2.0',
@@ -30,12 +38,10 @@ algo: [
 ]
 }
 }
-
 ```
 
-```json
-Pool response:
-{
+<pre class="language-json"><code class="lang-json"><strong>(Pool response):
+</strong>{
 id: 1,
 jsonrpc: '2.0',
 result: {
@@ -52,7 +58,7 @@ status: 'OK'
 error: null
 }
 
-```
+</code></pre>
 
 {% hint style="info" %}
 **how to get the data**
@@ -69,8 +75,8 @@ _target:_ it's a target not difficulty, check this page for details [target.md](
 
 #### Submit Share
 
-```
-Submit share (Miner to Pool):
+```json
+(Miner to Pool):
 
 { 
 jsonrpc: '2.0', 
@@ -90,8 +96,8 @@ _nonce:_ the 4bytes nonce solution\
 _result:_ the 32bytes randomX hash result
 {% endhint %}
 
-```
-Pool response:
+```json
+(Pool response):
 
 {
     result: {
@@ -108,10 +114,12 @@ where interactionId correspond to the params.id sent by miner
 ```
 {% endhint %}
 
-#### Send Job (Pool to Miner)
+#### Send Job
+
+sends new job to miner
 
 ```json
-Send new job to miner:
+(Pool to Miner)
 { 
 jsonrpc: '2.0', 
 method: 'job', 
